@@ -24,7 +24,7 @@ public class CrudStudent extends DriverFactory {
 		
 		driver=DriverFactory.getDriver();
 		driver.manage().window().maximize();
-		driver.get("http://IPADDRESS/studentapp/");
+		driver.get("http://IPADDRESS/student/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
